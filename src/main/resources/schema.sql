@@ -6,6 +6,6 @@ CREATE TABLE client (
 		 age INT NULL,
 		 cpf VARCHAR(14) NULL,
 		 email VARCHAR(255) NULL,
-		 phone INT(11) NULL,
+		 phone BIGINT(12) NULL,
 		 save VARCHAR(255) NULL,
 		 PRIMARY KEY (id_client));
