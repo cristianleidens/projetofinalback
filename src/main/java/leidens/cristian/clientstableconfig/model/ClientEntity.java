@@ -40,4 +40,20 @@ public class ClientEntity {
     @Column(name = "age")
     @NotNull(message = "Can't age empty")
     private int age;
+
+    @Column(name = "cpf")
+    @NotBlank(message = "Invalid CPF")
+    private String cpf;
+
+    @Column(name = "email")
+    @NotBlank(message = "Invalid email")
+    private String email;
+
+    @Column(name = "phone")
+    @NotNull(message = "Invalid phone")
+    private int phone;
+
+    @Column(name = "save")
+    @NotNull(message = "Data local")
+    private String save;
 }
